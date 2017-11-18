@@ -171,45 +171,6 @@ strong, bold, b{
   font-weight: 700;
 }
 
-/* ================= TRADITIONAL PARAGRAPHING ======================*/
-
-/* These styles set up book style paragraphing, and make the spacing work.
-   Unfortunatly, you can’t use p + p with inline elements (like thumbanils).
-
-   Comment this block out if you want your paragraphs marked by space rather
-   than indent. */
-
-
-.post-content > .kg-card-markdown > p + p,
-.post-content .thumb + p,
-.post-content aside + p{
-  text-indent:1.65em;
-}
-
-.post-content p{
-  margin-bottom:0em;
-  -webkit-margin-after: 0em;
-}
-
-
-.post-content h1,
-.post-content h2,
-.post-content h3{
-  margin-top: 2.857rem;
-  margin-bottom: 1.65rem;
-}
-
-.post-content h4,
-.post-content h5,
-.post-content h6{
-  margin-top: 3.3rem;
-  margin-bottom: 1.1rem;
-}
-
-
-/* END OF TRADITIONAL PARAGRAPH STYLES*/
-
-
 ol, ul {
   padding-left: 0;
 }
